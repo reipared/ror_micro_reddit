@@ -1,0 +1,12 @@
+<h1>Micro-Reddit</h1>
+
+<% if @posts.any? %>
+  <% @posts.each do |post| %>
+    <h2><%= post.title %></h2>
+    <p><%= post.body %></p>
+  <% end %>
+<% else %>
+  <p>No posts yet.</p>
+<% end %>
+
+<%= link_to "New Post", new_post_path %>
