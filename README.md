@@ -1,24 +1,3 @@
-# README
+# Micro Reddit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Micro Reddit is a Ruby on Rails project aimed at building a simplified social platform. Inspired by the popular website Reddit, this project focuses on the core functionality of creating posts and commenting on them.
